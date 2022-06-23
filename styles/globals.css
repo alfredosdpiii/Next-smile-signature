@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "DMSans";
+  src: url("../assets/fonts/DM_Sans/DMSans-Regular.ttf")
+}
+
+@font-face{
+  font-family: "Playfair";
+  src: url("../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +27,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.paragraphs{
+  font-family: 'DMSans', sans-serif;
+}
+
+.heading-1{
+  font-family: 'Playfair', sans-serif;
 }
