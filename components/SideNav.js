@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/SideNav.module.css'
 
 const NavItem = props => (
-  <li>
-    <a className="text-lg font-light px-8 py-2 hover:text-blue-500" href={props.href}>
+  <li className="px-2 py-1">
+    <a className="text-lg font-light px-8 py-2 hover:text-blue-500 navigation-links" href={props.href}>
       {props.text}
     </a>
   </li>
@@ -10,12 +11,12 @@ const NavItem = props => (
 
 const SideNav = () => {
   return (
-    <div>
+    <div className={styles.navigation}>
       <ul className="flex flex-col">
         <NavItem text="About" href="/the-full-story" />
-        <NavItem text="Services" href="/services"/>
-        <NavItem text="Testimonials" href="Testimonials"/>
-        <NavItem text="Contact" href="Contact"/>
+        <NavItem text="Services" href="#services"/>
+        <NavItem text="Testimonials" href="#testimonials"/>
+        <NavItem text="Contact" href="#contact"/>
       </ul>
     </div>
   )
