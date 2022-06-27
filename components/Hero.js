@@ -14,10 +14,10 @@ const Hero = () => {
     </div>
     <div className="grid grid-cols-10 mx-4 gap-4">
       <div className="col-start-5 col-end-8 animate-[slide_4s_ease-in-out]">
-        <Image src={img1} width="2000px" height="1500px" alt="Picture of dental room" className/>
+        <Image src={img1} width="2000px" height="1500px" alt="Picture of dental room" className="rounded-lg"/>
       </div>
       <div className="col-start-8 col-end-11 animate-[slide_4.3s_ease-in-out]">
-        <Image src={img2} width="2000px" height="1500px" alt="Picture of dental room"/>
+        <Image src={img2} width="2000px" height="1500px" alt="Picture of dental room" className="rounded-lg"/>
       </div>
     </div>
     </>

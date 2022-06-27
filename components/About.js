@@ -12,6 +12,7 @@ const About = () => {
             alt='picture of dental instruments'
             layout='fill'
             objectFit='contain'
+            className='rounded-lg'
           />
         </div>
         <div className="opacity-0 hover:opacity-100 duration-300 ease-out absolute inset-0 z-10 flex justify-center items-center text-8xl text-black bg-white font-bold heading-1 cursor-pointer">
