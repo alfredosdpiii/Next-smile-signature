@@ -12,6 +12,9 @@
   src: url("../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
 }
 
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   padding: 0;
