@@ -2,7 +2,7 @@ import React from "react"
 
 const Header = () => {
   return (
-    <nav className="flex w-full bg-transparent justify-between py-4 px-12 sticky top-0">
+    <nav className="flex w-full bg-transparent justify-between py-4 px-12 sticky top-0 z-10">
       <a className="heading-1 text-xl p-4">
         Smile Signature
       </a>

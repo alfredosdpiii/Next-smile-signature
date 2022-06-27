@@ -11,9 +11,9 @@ const NavItem = props => (
 
 const SideNav = () => {
   return (
-    <div className={styles.navigation}>
+    <div className={`${styles.navigation} z-10`}>
       <ul className="flex flex-col">
-        <NavItem text="About" href="/the-full-story" />
+        <NavItem text="About" href="#about" />
         <NavItem text="Services" href="#services"/>
         <NavItem text="Testimonials" href="#testimonials"/>
         <NavItem text="Contact" href="#contact"/>
