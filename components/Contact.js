@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='w-screen h-96'>
-      <h1 className='heading-1 text-7xl text-black text-center'>Contact us</h1>
+    <div className='w-screen h-{128} bg-red-300' id="contact">
+      <h1 className='heading-1 text-7xl text-black text-center py-8'>Contact us</h1>
       <div className='flex flex-row justify-start items-start h-full px-8'>
         <div className='flex flex-col justify-evenly items-start h-80'>
           <p className='paragraphs text-2xl break-normal'>
