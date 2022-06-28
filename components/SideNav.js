@@ -17,7 +17,7 @@ function classNames(...classes){
 const SideNav = () => {
   const scrollPosition = useScrollPosition()
   return (
-    <div className={classNames(scrollPosition > 0 ? `${styles.navigation} z-10 text-purple-300` : `${styles.navigation} z-10} hidden sm:block`)}>
+    <div className={classNames(scrollPosition > 0 ? `${styles.navigation} z-10 text-purple-300 hidden sm:block` : `${styles.navigation} z-10} hidden sm:block`)}>
       <ul className="flex flex-col">
         <NavItem text="About" href="#about" />
         <NavItem text="Services" href="#services"/>
