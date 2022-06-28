@@ -21,7 +21,7 @@ const Services = () => {
   return (
     <div className='w-screen h-screen flex justify-evenly items-center relative animate-[slide_4s_ease-in-out] flex-col bg-black' id='services'>
     <h1 className='heading-1 text-7xl text-white'>Services we offer.</h1>
-      <div className='w-11/12 h-11/12 grid grid-cols-4 grid-rows-2 gap-8'>
+      <div className='w-8/12 h-8/12 grid grid-cols-4 grid-rows-2 gap-8'>
         <Card src={tech} alt={'Picture of x-ray'} title={'X-Ray'}/>
         <Card src={bond} alt={'Picture of bond'} title={'Bonding'}/>
         <Card src={white} alt={'Picture of teeth whitening'} title={'Whitening'}/>
