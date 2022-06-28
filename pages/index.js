@@ -14,8 +14,10 @@ export default function Home() {
       <Header />
       <SideNav />
       <Hero />
-      <About />
-      <Services />
+      <div className="wrapper">
+        <About className="under" />
+      </div>
+      <Services className="over"/>
     </Layout>
   )
 }

@@ -39,3 +39,13 @@ a {
 .heading-1{
   font-family: 'Playfair', sans-serif;
 }
+
+.under{
+  position:sticky;
+  top:0;
+}
+.wrapper{ height: 100vh; }
+.over{
+  margin-top: -50vh;
+  position:relative;
+}
