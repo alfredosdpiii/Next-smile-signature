@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/SideNav.module.css'
+import {useScrollPosition} from '../utils/useScrollPosition.js'
 
 const NavItem = props => (
   <li className="px-2 py-1">
@@ -9,9 +10,14 @@ const NavItem = props => (
   </li>
 )
 
+function classNames(...classes){
+  return classes.filter(Boolean).join(' ')
+}
+
 const SideNav = () => {
+  const scrollPosition = useScrollPosition()
   return (
-    <div className={`${styles.navigation} z-10`}>
+    <div className={classNames(scrollPosition > 0 ? `${styles.navigation} z-10 text-purple-300` : `${styles.navigation} z-10}`)}>
       <ul className="flex flex-col">
         <NavItem text="About" href="#about" />
         <NavItem text="Services" href="#services"/>
