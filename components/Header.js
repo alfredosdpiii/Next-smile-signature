@@ -7,7 +7,7 @@ const Header = () => {
         Smile Signature
       </a>
       
-      <button className="rounded-full bg-green-200  font-light text-xs p-5 sm:p-4 sm:text-xl">Schedule Appointment</button>
+      <button className="rounded-full sm:bg-green-200  font-light text-xs p-5 sm:p-4 sm:text-xl">Schedule Appointment</button>
     </nav>
   )
 }
