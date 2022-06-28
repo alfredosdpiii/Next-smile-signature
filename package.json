@@ -12,7 +12,7 @@
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-youtube": "^9.0.2"
+    "react-responsive": "^9.0.0-beta.10"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
