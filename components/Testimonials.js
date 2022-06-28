@@ -11,7 +11,7 @@ const Testimonials = () => {
         <h1 className='heading-1 text-center text-2xl sm:text-8xl'>One smile at a time.</h1>
         <h3 className='heading-1 text-center text-lg sm:text-4xl'>These are their testimonies.</h3>
       </div>
-      <div className='flex justify-evenly w-full flex-wrap gap-16'>
+      <div className='flex justify-evenly w-full flex-wrap gap-4 sm:gap-16'>
         {isTabletOrMobile ? <>
           <iframe src='https://www.youtube.com/embed/QFxMe8kCd3w'
             frameBorder='0'
